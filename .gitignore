@@ -22,3 +22,9 @@ HX4S20_HDMI/td_*.logw
 HX4S20_HDMI/*.dmp
 HX4S20_HDMI/build_hx4s20/gate.db
 HX4S20_HDMI/build_hx4s20/route.db
+
+# 本机协作工具目录不属于工程历史
+.agents/
+.claude/
+.codex/
+.cursor/
