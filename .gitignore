@@ -1,0 +1,24 @@
+# TD 可再生成的 GUI 缓存与临时文件
+*_Runs/
+.lock.f
+log/
+*.vvp
+__pycache__/
+*.pyc
+# Trellis 运行态不属于历史记录
+.trellis/.runtime/
+# build_hx4s20 的位流和报告是本次迁移基线，显式保留
+
+# 任务02频率试验只保留时序报告；TD数据库、网表和试验位流可由脚本重建
+HX4S20_HDMI/board/task02/trial_*/gate.db
+HX4S20_HDMI/board/task02/trial_*/gate.v
+HX4S20_HDMI/board/task02/trial_*/route.db
+HX4S20_HDMI/board/task02/trial_*/route.area
+HX4S20_HDMI/board/task02/trial_*/HX4S20_HDMI_Config.bit
+
+# TD 每次打开工程产生的临时日志和调试转储
+HX4S20_HDMI/td_*.log
+HX4S20_HDMI/td_*.logw
+HX4S20_HDMI/*.dmp
+HX4S20_HDMI/build_hx4s20/gate.db
+HX4S20_HDMI/build_hx4s20/route.db

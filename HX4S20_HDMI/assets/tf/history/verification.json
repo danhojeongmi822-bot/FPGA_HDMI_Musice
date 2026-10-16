@@ -1,0 +1,76 @@
+{
+  "card": {
+    "bytes_per_sector": 512,
+    "sectors_per_cluster": 64,
+    "partition_start_sector": 32,
+    "bpb_hidden_sectors": 0,
+    "data_start_sector": 3840
+  },
+  "images": [
+    {
+      "file": "001.bmp",
+      "source_url": "https://images.unsplash.com/photo-1500534623283-312aade485b7?w=800&h=600&fit=crop&fm=jpg",
+      "bytes": 921654,
+      "sha256": "ea687c2b81cd764a70c9dc2532f2cf66c8395080a801ee3b6afc1d426d567faa",
+      "width": 640,
+      "height": 480,
+      "bits": 24,
+      "compression": 0,
+      "start_sector": 4256,
+      "last_sector": 6056,
+      "contiguous": true,
+      "cluster_count": 29,
+      "raw_readback_matches": true,
+      "fits_fpga_layout": true
+    },
+    {
+      "file": "002.bmp",
+      "source_url": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800&h=600&fit=crop&fm=jpg",
+      "bytes": 921654,
+      "sha256": "f3d34f970c2dd86bf789e7eb893783a4e0e70058fd1bfc58d2e4a8c16215f2f0",
+      "width": 640,
+      "height": 480,
+      "bits": 24,
+      "compression": 0,
+      "start_sector": 6112,
+      "last_sector": 7912,
+      "contiguous": true,
+      "cluster_count": 29,
+      "raw_readback_matches": true,
+      "fits_fpga_layout": true
+    },
+    {
+      "file": "003.bmp",
+      "source_url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop&fm=jpg",
+      "bytes": 921654,
+      "sha256": "82b8dbdb998fa681ec0d17f9cba5f5896ac9dfcd8909ba1cb4f1ee703827962f",
+      "width": 640,
+      "height": 480,
+      "bits": 24,
+      "compression": 0,
+      "start_sector": 7968,
+      "last_sector": 9768,
+      "contiguous": true,
+      "cluster_count": 29,
+      "raw_readback_matches": true,
+      "fits_fpga_layout": true
+    },
+    {
+      "file": "004.bmp",
+      "source_url": "https://images.unsplash.com/photo-1472396961693-142e6e269027?w=800&h=600&fit=crop&fm=jpg",
+      "bytes": 921654,
+      "sha256": "cd8514d02703ff607d7c86e450840d691b3e23b3b99c20c61945ec248a465ad2",
+      "width": 640,
+      "height": 480,
+      "bits": 24,
+      "compression": 0,
+      "start_sector": 9824,
+      "last_sector": 11624,
+      "contiguous": true,
+      "cluster_count": 29,
+      "raw_readback_matches": true,
+      "fits_fpga_layout": true
+    }
+  ],
+  "all_fit_fpga_layout": true
+}

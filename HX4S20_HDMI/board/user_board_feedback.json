@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-15",
+  "source": "用户本次聊天反馈，代理未直接实测",
+  "summary": "显示及主要按键功能初测大体正常",
+  "reported": [
+    "SW6开启后数码管显示1",
+    "KEY1后显示2并回首图",
+    "KEY2切下一张并观察到2",
+    "KEY3自动轮播"
+  ],
+  "unconfirmed": [
+    "多位数码管实际点亮位置",
+    "实际下载位流SHA256",
+    "音频",
+    "完整四图及顺序",
+    "轮播关闭",
+    "冷启动次数与长期稳定"
+  ],
+  "raw_message_record": "docs/对话历史整理.md",
+  "expected_behavior": "docs/上板现象对照.md",
+  "timing_signoff_passed": false
+}

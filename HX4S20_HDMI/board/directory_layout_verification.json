@@ -1,0 +1,428 @@
+{
+  "date": "2026-10-15",
+  "repository_root": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\AEnd_the_game",
+  "project_root": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\AEnd_the_game\\HX4S20_HDMI",
+  "moved_entries": [
+    "资料与开发板原理图与说明",
+    "assets",
+    "board",
+    "build_hx4s20",
+    "constraints",
+    "hdmi1.4b_transmitter_core",
+    "include",
+    "IP",
+    "SD",
+    "spec",
+    "user_source",
+    "_IP核需在TD中生成.txt",
+    "上板前核查结果.md",
+    "audio_arc_calculate.v",
+    "hdmi_audio_tone_i2s_64fs.v",
+    "hdmi_phy_warpper.v",
+    "HX4S20_HDMI_Config.al",
+    "HX4S20_TD引脚配置说明.md",
+    "I2S_receiver.v",
+    "lane_lvds_10_1.v",
+    "startup_pulse.v",
+    "top_tf_hdmi_audio.v",
+    "video_rgb_to_axis_640x480.v",
+    "video_source_test.v"
+  ],
+  "files_before_move": [
+    {
+      "path": "资料与开发板原理图与说明/EG4S20数据手册.pdf",
+      "sha256": "a4434879f6671e9a1bab9b110dd4b1088a593f36ffca3b66eba1b8a168a49a2a"
+    },
+    {
+      "path": "资料与开发板原理图与说明/安路软件使用完整流程.pdf",
+      "sha256": "1d352d483cc0dd6c4b5d79423d1c7f70305c504bdfeb9a962702ee20d6f2ce22"
+    },
+    {
+      "path": "资料与开发板原理图与说明/10_康芯开发板使用手册及实验平台/HX4S20开发板手册-HDL版2410.pdf",
+      "sha256": "e6d066fdc433259697bcf5dfe9eb791cf8a87d289c75e69fa40172d716afccfe"
+    },
+    {
+      "path": "资料与开发板原理图与说明/10_康芯开发板使用手册及实验平台/安路教学实验平台2509.pdf",
+      "sha256": "6bd550fc13c2074530404e4f9883a9f6d76c4eb800c435a3d425485c7ca72225"
+    },
+    {
+      "path": "资料与开发板原理图与说明/开发板原理图/1_POWER.pdf",
+      "sha256": "371053b0a91b743ade9c71790241b00c8de9c8642c26c8d43d561c96cd3dab73"
+    },
+    {
+      "path": "资料与开发板原理图与说明/开发板原理图/2_FPGA.pdf",
+      "sha256": "c3ed8fcd4680d2c3a49101329a480be94b7980af1d262ba3bbf317df144a4017"
+    },
+    {
+      "path": "资料与开发板原理图与说明/开发板原理图/3_Power_and_Config.pdf",
+      "sha256": "5af05600ce30bd0a716f145b2abba753aae384f1857b5e99294dfb0afdb3bc57"
+    },
+    {
+      "path": "资料与开发板原理图与说明/开发板原理图/4_GPIO.pdf",
+      "sha256": "ea0914ba2f5e77f3bde2fed9a5da18ffd6c65ca905d93607ad767a1eb1a644a8"
+    },
+    {
+      "path": "资料与开发板原理图与说明/开发板原理图/5_DIG_VGA.pdf",
+      "sha256": "1ec349af10ae5952c3f31371c8340d1a8428ceda8a8311742c15672201665ea7"
+    },
+    {
+      "path": "资料与开发板原理图与说明/开发板原理图/6_EX_DEVICE.pdf",
+      "sha256": "1d4848bf65715f1b71bec93e211fe189ea1ddb1073da8109fa85480d65eb0f97"
+    },
+    {
+      "path": "资料与开发板原理图与说明/开发板原理图/7_HDMI.pdf",
+      "sha256": "02dcd9367fd28d0d251d0333d44466ac54a3baae1edd63ad2c4e6737241feef6"
+    },
+    {
+      "path": "资料与开发板原理图与说明/开发板原理图/8_Ethernet.pdf",
+      "sha256": "fbfccce640c4fc91f740ac6140cc7a5d59578b404cb90f93bcac966dd33c2019"
+    },
+    {
+      "path": "assets/tf/001.bmp",
+      "sha256": "ea687c2b81cd764a70c9dc2532f2cf66c8395080a801ee3b6afc1d426d567faa"
+    },
+    {
+      "path": "assets/tf/002.bmp",
+      "sha256": "f3d34f970c2dd86bf789e7eb893783a4e0e70058fd1bfc58d2e4a8c16215f2f0"
+    },
+    {
+      "path": "assets/tf/003.bmp",
+      "sha256": "82b8dbdb998fa681ec0d17f9cba5f5896ac9dfcd8909ba1cb4f1ee703827962f"
+    },
+    {
+      "path": "assets/tf/004.bmp",
+      "sha256": "cd8514d02703ff607d7c86e450840d691b3e23b3b99c20c61945ec248a465ad2"
+    },
+    {
+      "path": "assets/tf/原素材使用说明.md",
+      "sha256": "338842127b7ef2878081750faab7cc7c489b8a5c9740cb3342f9cbb4b8f573ba"
+    },
+    {
+      "path": "assets/tf/history/prepare_images.py",
+      "sha256": "fc42d6c7e11ced3bc108f3b6513e6af97021ba31acfe27d88f47ae7ca61c8804"
+    },
+    {
+      "path": "assets/tf/history/verification.json",
+      "sha256": "2e46976e91e4ce89877437da6644802306fe32299f49cbf73e45efa0efd9426c"
+    },
+    {
+      "path": "board/build_console_single.log",
+      "sha256": "8e6b75087f3b82d656e9eb8b10a06abb8aa0dd47057033ae8f97d80718f7b265"
+    },
+    {
+      "path": "board/build_project.tcl",
+      "sha256": "5d5b194963d9246920bbeefdce7ec6271763930b97f02ae1a3f3953dfca3411a"
+    },
+    {
+      "path": "board/hx4s20_board_top.v",
+      "sha256": "b0b5c290e6964a91890dadc43135b482546e359eb03af680e35a3b89c7555eac"
+    },
+    {
+      "path": "board/migration_manifest.json",
+      "sha256": "268a9f55acb7ef3424e0d5d8f26534b94380eef7ec397947a94256380599a0cc"
+    },
+    {
+      "path": "board/migration_verification.json",
+      "sha256": "7596611f6eae125b373e1bbd71db9366cea31cb14ac2cff45950a225a689bb7a"
+    },
+    {
+      "path": "board/pin_verification.json",
+      "sha256": "54bb59f5277b5818d08b9e2cf7c22fbe062d6b1dcf6f5f81286ad6ee6ec8c3b2"
+    },
+    {
+      "path": "board/regression_results.json",
+      "sha256": "d8bb0116bb318c5a52325ce8c290e4f3755180983f899bceb060da108bcf1a1a"
+    },
+    {
+      "path": "board/run_regression.py",
+      "sha256": "1164d168396149bcad2c7b9352828de9f846d6aed8b08f33496df3d07892eb60"
+    },
+    {
+      "path": "board/user_board_feedback.json",
+      "sha256": "a5e30c097fa2ebbb68e438b8e47e81f1784cfac4513c02fc757fea7b9d391cb4"
+    },
+    {
+      "path": "board/verify_pin_report.py",
+      "sha256": "daded21cd7dcb441fbf7b4a5615ae50d78f03e6e9fe18ac1611dd9a4fef1fd3c"
+    },
+    {
+      "path": "board/tests/tb_audio.v",
+      "sha256": "53827804ae6a39fbae16f76fb9df747cd135d557dc534dd5c182a8c2cea1f524"
+    },
+    {
+      "path": "board/tests/tb_audio.vvp",
+      "sha256": "13d9aec65e339c7003d417f63f7496ff3d87d0f5e388e70405ada78edbfb908d"
+    },
+    {
+      "path": "board/tests/tb_bmp.v",
+      "sha256": "f2a722e2f4b80fcd22799c51d2ed47c6ffbd2c25f361df4276b1ed51e75634ba"
+    },
+    {
+      "path": "board/tests/tb_bmp.vvp",
+      "sha256": "ab95e7138257a6199a254f44df0853801bffee61f4878d716d4bab95f0446177"
+    },
+    {
+      "path": "board/tests/tb_reset.v",
+      "sha256": "01927b8b7caa83e02775ef6aa608e8dac7b3b29864278f5d9aafc15f1b5c4f79"
+    },
+    {
+      "path": "board/tests/tb_reset.vvp",
+      "sha256": "15899e113e4aa0f801d4727d2cdf8166b12db69a85e0b167a99d53d28442c799"
+    },
+    {
+      "path": "board/tests/tb_video_axis.v",
+      "sha256": "ce5746c71563a4400238e0bf9567556227b12c85376ebad25e151895c04196dd"
+    },
+    {
+      "path": "board/tests/tb_video_axis.vvp",
+      "sha256": "9c6e059ab973447e4760d9712b69824717fd9a89823acfc97569ecea39caeae3"
+    },
+    {
+      "path": "build_hx4s20/gate.area",
+      "sha256": "41d8270e16a1c80335841eb4d0ca631cf16a93b6fd99d6d673d08032408e3d56"
+    },
+    {
+      "path": "build_hx4s20/gate.db",
+      "sha256": "df2588105e7e547680b7111e4ab0c52ef8a7f33161a9ad04a2b7c82280c4fec6"
+    },
+    {
+      "path": "build_hx4s20/HX4S20_HDMI_Config.bit",
+      "sha256": "7ab4088df366c4aa64b764e9ca3ec67cebeb56d7f9d67caf8d520f8b0ffddaea"
+    },
+    {
+      "path": "build_hx4s20/place.area",
+      "sha256": "15db5fb46cb338e71a6f50f4a8434cfc0a8ec3958919b1afba28d80929b08d30"
+    },
+    {
+      "path": "build_hx4s20/route.area",
+      "sha256": "b42f58f7f1b1065100d552a99c449708798412caf9b0c7085c0666e45972a5e8"
+    },
+    {
+      "path": "build_hx4s20/route.db",
+      "sha256": "b9176266dc40e37a0a4a53eca4f89e4a89ae088e739c7cbb49acdb15f3fd8988"
+    },
+    {
+      "path": "build_hx4s20/route_timing.rpt",
+      "sha256": "29b2ca8b46f7b978feda667ec68535bdfe00ff60d2b9e21c6f645c87a5115dd5"
+    },
+    {
+      "path": "build_hx4s20/route_timing_status.rpt",
+      "sha256": "2823bc88740942c2218e4fb7d1d758587b976630caed9e8c453a74d74f5eb416"
+    },
+    {
+      "path": "constraints/hx4s20_clocks.sdc",
+      "sha256": "0a9bd6602f904f045636246b77e165880730dbcafd21444d9f1bb400e7f2cf53"
+    },
+    {
+      "path": "constraints/hx4s20_hdmi_a.adc",
+      "sha256": "2a99c4b0be701fcfe326bc04b0da81893b8ac3ef7df3aebfa3acceed19c42917"
+    },
+    {
+      "path": "hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v",
+      "sha256": "867e0b0bdd874bc383d00918c9e1be3fe01edf41f343b6a0d73e262776596a63"
+    },
+    {
+      "path": "include/global_def.v",
+      "sha256": "04f854d7fe2f7816705b988ec59822fc258e4ed3a13529e36d0b9e6233a2682f"
+    },
+    {
+      "path": "include/sdr_as_ram.enc.v",
+      "sha256": "767dbdfbd83d42223b77dfa7deab42ce8216a8fd6f6cb41b7e7593d9a345ba57"
+    },
+    {
+      "path": "include/sdr_init_ref.enc.v",
+      "sha256": "6da5945f4af793610d0d64c65c7e5d2d1c86ed4c11bc5fdeacd27eb03178b9f6"
+    },
+    {
+      "path": "include/sdr_wrrd.enc.v",
+      "sha256": "c7d7fe07d75f66aa88d9f986b3006319c995162434f104f9990664b374cdfdd2"
+    },
+    {
+      "path": "IP/afifo_16_32_256.v",
+      "sha256": "3d29b06655482184a9ad157b9bd71b79032debe3199168d3b4d9570fdac31835"
+    },
+    {
+      "path": "IP/afifo_32_16_256.v",
+      "sha256": "7c3ee41f30be75ae686c9abff3a840fc5439209cda077e4aa275eac0dab9f564"
+    },
+    {
+      "path": "IP/PLL_HDMI_AUDIO.v",
+      "sha256": "1e174c1dc4edbce9c61d6b390aca3b7b94022b60995a92981d5278247b7f5867"
+    },
+    {
+      "path": "IP/sdram.v",
+      "sha256": "1487e8583bbf52fe6d079a2854c10ebff2e569a3872a9088c1c9717ba14d17fe"
+    },
+    {
+      "path": "IP/sys_pll.v",
+      "sha256": "02da17afa1b3f23c880254924437b9529ef7ab872b888073fce43d3dce07a4f6"
+    },
+    {
+      "path": "IP/video_pll.v",
+      "sha256": "57e45a062814673e97773cf6c58ff1629fa45895e30de9d2c2b6bdd30bd9bb13"
+    },
+    {
+      "path": "SD/ax_debounce.v",
+      "sha256": "93aa6dd38051250cc7f777c88466ac180afe9bcdce7838b9ea506455d8cbc9b8"
+    },
+    {
+      "path": "SD/bmp_read.v",
+      "sha256": "e17302e6940c60a3d16a50ccf8d64ee83190b6a045daac9d2585f2b9166deaac"
+    },
+    {
+      "path": "SD/color_bar.v",
+      "sha256": "afe1f56714ec58d2477ba1717e5a36c5a0da5fe5c07d70d11aa5ace710c4b152"
+    },
+    {
+      "path": "SD/frame_fifo_read.v",
+      "sha256": "5952075b213ec638f5c9bb238d4d4162685f9e9b5e752674f0e68a92dbec83ac"
+    },
+    {
+      "path": "SD/frame_fifo_write.v",
+      "sha256": "39d292f97a20d6f5ade8057874a64d0677f2cab7675514f1837fe95bfa9d0192"
+    },
+    {
+      "path": "SD/frame_read_write.v",
+      "sha256": "bd63d3176fc900895f6669a77132f5bceaff0a98ba74e3603c374295df8e33fd"
+    },
+    {
+      "path": "SD/sdram.v",
+      "sha256": "1dc2281fdaab814286a228bd1e78dedff5d3c26486920265d1e48c1ea2513e08"
+    },
+    {
+      "path": "SD/sd_card_bmp.v",
+      "sha256": "79889e1b401f9f19e3b8fe14a75e89e5b42ebb84c9d5127779258408c313a754"
+    },
+    {
+      "path": "SD/sd_card_cmd.v",
+      "sha256": "a1a50502afd4e8b238b0627cd5f204c04738e761d49ab48f33da35e22ba4a5fa"
+    },
+    {
+      "path": "SD/sd_card_sec_read_write.v",
+      "sha256": "c245c07e3b0056808d86e06aad74348494e2a7050d493a3d4141d97ccf115203"
+    },
+    {
+      "path": "SD/sd_card_top.v",
+      "sha256": "c2e4877de317b465c6bcd227482667f34c1e76404eae915fc858813b619c71e6"
+    },
+    {
+      "path": "SD/seg_decoder.v",
+      "sha256": "d88f1c424fcda038c7945efc083a0231146509663dc26e4d86438849c2440852"
+    },
+    {
+      "path": "SD/seg_scan.v",
+      "sha256": "eecfbb5476ec80ad9316baefffa508c3c284383106879e312ddb377e9fd94504"
+    },
+    {
+      "path": "SD/spi_master.v",
+      "sha256": "d8de32cd71948159c07365191f24b8d4410f6130436a72ec88dff48b813bdedb"
+    },
+    {
+      "path": "SD/video_define.v",
+      "sha256": "77748966850a8f5af0d77f2cdb08006088ba5e1a31b98391fba6cc61c5247da2"
+    },
+    {
+      "path": "SD/video_delay.v",
+      "sha256": "5d4b95b39532fb887760c0ac8b0a41c8e502d31ee1e2079b740eb65b300f0f95"
+    },
+    {
+      "path": "SD/video_timing_data.v",
+      "sha256": "70b50c0d1ee979cf8c7d47bcfd14c7edf3cabcc5b3ca673833d3d95b7dfc3b8f"
+    },
+    {
+      "path": "spec/验证会话记录.md",
+      "sha256": "1a7831b5cb6196939f4d91b92e4212d323727ea6d2c6770279b53926022690b2"
+    },
+    {
+      "path": "spec/conventions/HX4S20_时钟与接口验证.md",
+      "sha256": "17d01dd62c7524ec2ebdcf5b7744808e910ea6f1756eb2887011c8bfcfd84199"
+    },
+    {
+      "path": "user_source/hdl_source/include/global_def.v",
+      "sha256": "04f854d7fe2f7816705b988ec59822fc258e4ed3a13529e36d0b9e6233a2682f"
+    },
+    {
+      "path": "user_source/hdl_source/include/.dide/hdl/systemverilog.bin",
+      "sha256": "5494877558ba18ae8d924dc2932353d4a695d973714794a1afcff89aba1c2e25"
+    },
+    {
+      "path": "user_source/hdl_source/include/.dide/hdl/vhdl.bin",
+      "sha256": "5494877558ba18ae8d924dc2932353d4a695d973714794a1afcff89aba1c2e25"
+    },
+    {
+      "path": "_IP核需在TD中生成.txt",
+      "sha256": "4ea30bb1d05bc61c30e8971ba717d530413b999b2a8817096db136561eb1c7fb"
+    },
+    {
+      "path": "上板前核查结果.md",
+      "sha256": "15afab3807da305c6836b7c88cebed2173056cbffb06d9abc6fde4d261f2cd34"
+    },
+    {
+      "path": "audio_arc_calculate.v",
+      "sha256": "552d8d86afd237666b30ae08f31247808e89eb024efde5efc670b82eb617a7dc"
+    },
+    {
+      "path": "hdmi_audio_tone_i2s_64fs.v",
+      "sha256": "cda838e4e368045d5c6297024081412c068fda8771a9e66d26e044660a7541ad"
+    },
+    {
+      "path": "hdmi_phy_warpper.v",
+      "sha256": "5d212b43dfa44275540fdb1c550ff42dde04e7b8cc1d7beed459be3318f38647"
+    },
+    {
+      "path": "HX4S20_HDMI_Config.al",
+      "sha256": "ec770382fefaf3ef38a816260aedb065c92f6102044e5fbc605042d75dfabfa5"
+    },
+    {
+      "path": "HX4S20_TD引脚配置说明.md",
+      "sha256": "6fe5c069d1bcf80ba94ef000402497f204a6e2139e75914602a046fd9852693a"
+    },
+    {
+      "path": "I2S_receiver.v",
+      "sha256": "384ee3e4d8ac02dcba5dc80d070913d6d7a255843828c78fae9e5309d3c8007a"
+    },
+    {
+      "path": "lane_lvds_10_1.v",
+      "sha256": "de9529321354f04837e051d0ec1681cf44783d4be3284703a788e081147500bc"
+    },
+    {
+      "path": "startup_pulse.v",
+      "sha256": "396e1e56febb8028339e646bc2f06b83e07ab11ef840e447422fb941956741c9"
+    },
+    {
+      "path": "top_tf_hdmi_audio.v",
+      "sha256": "421b965c05f0c9b58f663bd04c0cdd261432cbeeddbde00b80e132a7bc88f971"
+    },
+    {
+      "path": "video_rgb_to_axis_640x480.v",
+      "sha256": "ba379b066ab20bbbe9f333deb94083d47655d4b1a3fc8a41e55fc0c1dd79f881"
+    },
+    {
+      "path": "video_source_test.v",
+      "sha256": "39cc05c9684a594d4254d11e66e97344053ab75bdb00f3f5a301643fd7aadbfc"
+    }
+  ],
+  "all_hashes_matched_immediately_after_move": true,
+  "subsequent_expected_changes": [
+    "HX4S20_HDMI_Config.al",
+    "board/migration_manifest.json",
+    "board/migration_verification.json",
+    "board/pin_verification.json",
+    "board/regression_results.json"
+  ],
+  "rtl_constraints_bitstream_changed": false,
+  "actual_changed_after_move": [
+    "board/migration_manifest.json",
+    "board/migration_verification.json",
+    "board/pin_verification.json",
+    "board/regression_results.json",
+    "HX4S20_HDMI_Config.al"
+  ],
+  "regenerated_simulation_files": [
+    "board/tests/tb_audio.vvp",
+    "board/tests/tb_bmp.vvp",
+    "board/tests/tb_reset.vvp",
+    "board/tests/tb_video_axis.vvp"
+  ],
+  "post_update_hash_check_passed": true
+}

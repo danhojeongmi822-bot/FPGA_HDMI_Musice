@@ -1,0 +1,542 @@
+{
+  "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG",
+  "destination": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\AEnd_the_game\\HX4S20_HDMI",
+  "date": "2026-10-15",
+  "files": [
+    {
+      "path": "board/build_console_single.log",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\board\\build_console_single.log",
+      "bytes": 127922,
+      "sha256_at_copy": "8e6b75087f3b82d656e9eb8b10a06abb8aa0dd47057033ae8f97d80718f7b265"
+    },
+    {
+      "path": "board/build_project.tcl",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\board\\build_project.tcl",
+      "bytes": 888,
+      "sha256_at_copy": "5d5b194963d9246920bbeefdce7ec6271763930b97f02ae1a3f3953dfca3411a"
+    },
+    {
+      "path": "board/hx4s20_board_top.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\board\\hx4s20_board_top.v",
+      "bytes": 1285,
+      "sha256_at_copy": "b0b5c290e6964a91890dadc43135b482546e359eb03af680e35a3b89c7555eac"
+    },
+    {
+      "path": "board/pin_verification.json",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\board\\pin_verification.json",
+      "bytes": 3636,
+      "sha256_at_copy": "62cba254337c1c86ef9c1f0e7d899a6be43318b704388e7907ff5726474b84ea"
+    },
+    {
+      "path": "board/regression_results.json",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\board\\regression_results.json",
+      "bytes": 2416,
+      "sha256_at_copy": "68b616495d15c927fb661925ac15beec7cb78123f6e0cd420b5336da00cd67c0"
+    },
+    {
+      "path": "board/run_regression.py",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\board\\run_regression.py",
+      "bytes": 1681,
+      "sha256_at_copy": "4a6d2bfd00bc2c220396060fe0b0b7a2da6ce4996e4bc787615b0e94b6e9db19"
+    },
+    {
+      "path": "board/verify_pin_report.py",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\board\\verify_pin_report.py",
+      "bytes": 2552,
+      "sha256_at_copy": "daded21cd7dcb441fbf7b4a5615ae50d78f03e6e9fe18ac1611dd9a4fef1fd3c"
+    },
+    {
+      "path": "board/tests/tb_audio.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\board\\tests\\tb_audio.v",
+      "bytes": 1133,
+      "sha256_at_copy": "53827804ae6a39fbae16f76fb9df747cd135d557dc534dd5c182a8c2cea1f524"
+    },
+    {
+      "path": "board/tests/tb_bmp.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\board\\tests\\tb_bmp.v",
+      "bytes": 2052,
+      "sha256_at_copy": "f2a722e2f4b80fcd22799c51d2ed47c6ffbd2c25f361df4276b1ed51e75634ba"
+    },
+    {
+      "path": "board/tests/tb_reset.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\board\\tests\\tb_reset.v",
+      "bytes": 522,
+      "sha256_at_copy": "01927b8b7caa83e02775ef6aa608e8dac7b3b29864278f5d9aafc15f1b5c4f79"
+    },
+    {
+      "path": "board/tests/tb_video_axis.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\board\\tests\\tb_video_axis.v",
+      "bytes": 1055,
+      "sha256_at_copy": "ce5746c71563a4400238e0bf9567556227b12c85376ebad25e151895c04196dd"
+    },
+    {
+      "path": "build_hx4s20/gate.area",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\build_hx4s20\\gate.area",
+      "bytes": 12037,
+      "sha256_at_copy": "41d8270e16a1c80335841eb4d0ca631cf16a93b6fd99d6d673d08032408e3d56"
+    },
+    {
+      "path": "build_hx4s20/gate.db",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\build_hx4s20\\gate.db",
+      "bytes": 2311740,
+      "sha256_at_copy": "df2588105e7e547680b7111e4ab0c52ef8a7f33161a9ad04a2b7c82280c4fec6"
+    },
+    {
+      "path": "build_hx4s20/HX4S20_HDMI_Config.bit",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\build_hx4s20\\HX4S20_HDMI_Config.bit",
+      "bytes": 629637,
+      "sha256_at_copy": "7ab4088df366c4aa64b764e9ca3ec67cebeb56d7f9d67caf8d520f8b0ffddaea"
+    },
+    {
+      "path": "build_hx4s20/place.area",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\build_hx4s20\\place.area",
+      "bytes": 22642,
+      "sha256_at_copy": "15db5fb46cb338e71a6f50f4a8434cfc0a8ec3958919b1afba28d80929b08d30"
+    },
+    {
+      "path": "build_hx4s20/route.area",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\build_hx4s20\\route.area",
+      "bytes": 25736,
+      "sha256_at_copy": "b42f58f7f1b1065100d552a99c449708798412caf9b0c7085c0666e45972a5e8"
+    },
+    {
+      "path": "build_hx4s20/route.db",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\build_hx4s20\\route.db",
+      "bytes": 3693636,
+      "sha256_at_copy": "b9176266dc40e37a0a4a53eca4f89e4a89ae088e739c7cbb49acdb15f3fd8988"
+    },
+    {
+      "path": "build_hx4s20/route_timing.rpt",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\build_hx4s20\\route_timing.rpt",
+      "bytes": 1687536,
+      "sha256_at_copy": "29b2ca8b46f7b978feda667ec68535bdfe00ff60d2b9e21c6f645c87a5115dd5"
+    },
+    {
+      "path": "build_hx4s20/route_timing_status.rpt",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\build_hx4s20\\route_timing_status.rpt",
+      "bytes": 66,
+      "sha256_at_copy": "2823bc88740942c2218e4fb7d1d758587b976630caed9e8c453a74d74f5eb416"
+    },
+    {
+      "path": "constraints/hx4s20_clocks.sdc",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\constraints\\hx4s20_clocks.sdc",
+      "bytes": 170,
+      "sha256_at_copy": "0a9bd6602f904f045636246b77e165880730dbcafd21444d9f1bb400e7f2cf53"
+    },
+    {
+      "path": "constraints/hx4s20_hdmi_a.adc",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\constraints\\hx4s20_hdmi_a.adc",
+      "bytes": 3383,
+      "sha256_at_copy": "2a99c4b0be701fcfe326bc04b0da81893b8ac3ef7df3aebfa3acceed19c42917"
+    },
+    {
+      "path": "hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\hdmi1.4b_transmitter_core\\hdmi_1_4b_transmitter_core_wrapper.enc.v",
+      "bytes": 328975,
+      "sha256_at_copy": "867e0b0bdd874bc383d00918c9e1be3fe01edf41f343b6a0d73e262776596a63"
+    },
+    {
+      "path": "include/global_def.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\include\\global_def.v",
+      "bytes": 373,
+      "sha256_at_copy": "04f854d7fe2f7816705b988ec59822fc258e4ed3a13529e36d0b9e6233a2682f"
+    },
+    {
+      "path": "include/sdr_as_ram.enc.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\include\\sdr_as_ram.enc.v",
+      "bytes": 7538,
+      "sha256_at_copy": "767dbdfbd83d42223b77dfa7deab42ce8216a8fd6f6cb41b7e7593d9a345ba57"
+    },
+    {
+      "path": "include/sdr_init_ref.enc.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\include\\sdr_init_ref.enc.v",
+      "bytes": 9059,
+      "sha256_at_copy": "6da5945f4af793610d0d64c65c7e5d2d1c86ed4c11bc5fdeacd27eb03178b9f6"
+    },
+    {
+      "path": "include/sdr_wrrd.enc.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\include\\sdr_wrrd.enc.v",
+      "bytes": 15637,
+      "sha256_at_copy": "c7d7fe07d75f66aa88d9f986b3006319c995162434f104f9990664b374cdfdd2"
+    },
+    {
+      "path": "IP/afifo_16_32_256.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\IP\\afifo_16_32_256.v",
+      "bytes": 34123,
+      "sha256_at_copy": "3d29b06655482184a9ad157b9bd71b79032debe3199168d3b4d9570fdac31835"
+    },
+    {
+      "path": "IP/afifo_32_16_256.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\IP\\afifo_32_16_256.v",
+      "bytes": 34123,
+      "sha256_at_copy": "7c3ee41f30be75ae686c9abff3a840fc5439209cda077e4aa275eac0dab9f564"
+    },
+    {
+      "path": "IP/PLL_HDMI_AUDIO.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\IP\\PLL_HDMI_AUDIO.v",
+      "bytes": 2757,
+      "sha256_at_copy": "1e174c1dc4edbce9c61d6b390aca3b7b94022b60995a92981d5278247b7f5867"
+    },
+    {
+      "path": "IP/sdram.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\IP\\sdram.v",
+      "bytes": 1108,
+      "sha256_at_copy": "1487e8583bbf52fe6d079a2854c10ebff2e569a3872a9088c1c9717ba14d17fe"
+    },
+    {
+      "path": "IP/sys_pll.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\IP\\sys_pll.v",
+      "bytes": 2527,
+      "sha256_at_copy": "02da17afa1b3f23c880254924437b9529ef7ab872b888073fce43d3dce07a4f6"
+    },
+    {
+      "path": "IP/video_pll.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\IP\\video_pll.v",
+      "bytes": 2349,
+      "sha256_at_copy": "57e45a062814673e97773cf6c58ff1629fa45895e30de9d2c2b6bdd30bd9bb13"
+    },
+    {
+      "path": "SD/ax_debounce.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\SD\\ax_debounce.v",
+      "bytes": 2201,
+      "sha256_at_copy": "93aa6dd38051250cc7f777c88466ac180afe9bcdce7838b9ea506455d8cbc9b8"
+    },
+    {
+      "path": "SD/bmp_read.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\SD\\bmp_read.v",
+      "bytes": 11391,
+      "sha256_at_copy": "e17302e6940c60a3d16a50ccf8d64ee83190b6a045daac9d2585f2b9166deaac"
+    },
+    {
+      "path": "SD/color_bar.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\SD\\color_bar.v",
+      "bytes": 9141,
+      "sha256_at_copy": "afe1f56714ec58d2477ba1717e5a36c5a0da5fe5c07d70d11aa5ace710c4b152"
+    },
+    {
+      "path": "SD/frame_fifo_read.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\SD\\frame_fifo_read.v",
+      "bytes": 10172,
+      "sha256_at_copy": "5952075b213ec638f5c9bb238d4d4162685f9e9b5e752674f0e68a92dbec83ac"
+    },
+    {
+      "path": "SD/frame_fifo_write.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\SD\\frame_fifo_write.v",
+      "bytes": 11571,
+      "sha256_at_copy": "39d292f97a20d6f5ade8057874a64d0677f2cab7675514f1837fe95bfa9d0192"
+    },
+    {
+      "path": "SD/frame_read_write.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\SD\\frame_read_write.v",
+      "bytes": 11104,
+      "sha256_at_copy": "bd63d3176fc900895f6669a77132f5bceaff0a98ba74e3603c374295df8e33fd"
+    },
+    {
+      "path": "SD/sdram.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\SD\\sdram.v",
+      "bytes": 2461,
+      "sha256_at_copy": "1dc2281fdaab814286a228bd1e78dedff5d3c26486920265d1e48c1ea2513e08"
+    },
+    {
+      "path": "SD/sd_card_bmp.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\SD\\sd_card_bmp.v",
+      "bytes": 15066,
+      "sha256_at_copy": "79889e1b401f9f19e3b8fe14a75e89e5b42ebb84c9d5127779258408c313a754"
+    },
+    {
+      "path": "SD/sd_card_cmd.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\SD\\sd_card_cmd.v",
+      "bytes": 8550,
+      "sha256_at_copy": "a1a50502afd4e8b238b0627cd5f204c04738e761d49ab48f33da35e22ba4a5fa"
+    },
+    {
+      "path": "SD/sd_card_sec_read_write.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\SD\\sd_card_sec_read_write.v",
+      "bytes": 5620,
+      "sha256_at_copy": "c245c07e3b0056808d86e06aad74348494e2a7050d493a3d4141d97ccf115203"
+    },
+    {
+      "path": "SD/sd_card_top.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\SD\\sd_card_top.v",
+      "bytes": 7313,
+      "sha256_at_copy": "c2e4877de317b465c6bcd227482667f34c1e76404eae915fc858813b619c71e6"
+    },
+    {
+      "path": "SD/seg_decoder.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\SD\\seg_decoder.v",
+      "bytes": 783,
+      "sha256_at_copy": "d88f1c424fcda038c7945efc083a0231146509663dc26e4d86438849c2440852"
+    },
+    {
+      "path": "SD/seg_scan.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\SD\\seg_scan.v",
+      "bytes": 1864,
+      "sha256_at_copy": "eecfbb5476ec80ad9316baefffa508c3c284383106879e312ddb377e9fd94504"
+    },
+    {
+      "path": "SD/spi_master.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\SD\\spi_master.v",
+      "bytes": 3677,
+      "sha256_at_copy": "d8de32cd71948159c07365191f24b8d4410f6130436a72ec88dff48b813bdedb"
+    },
+    {
+      "path": "SD/video_define.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\SD\\video_define.v",
+      "bytes": 21,
+      "sha256_at_copy": "77748966850a8f5af0d77f2cdb08006088ba5e1a31b98391fba6cc61c5247da2"
+    },
+    {
+      "path": "SD/video_delay.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\SD\\video_delay.v",
+      "bytes": 1634,
+      "sha256_at_copy": "5d4b95b39532fb887760c0ac8b0a41c8e502d31ee1e2079b740eb65b300f0f95"
+    },
+    {
+      "path": "SD/video_timing_data.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\SD\\video_timing_data.v",
+      "bytes": 2506,
+      "sha256_at_copy": "70b50c0d1ee979cf8c7d47bcfd14c7edf3cabcc5b3ca673833d3d95b7dfc3b8f"
+    },
+    {
+      "path": "user_source/hdl_source/include/global_def.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\user_source\\hdl_source\\include\\global_def.v",
+      "bytes": 373,
+      "sha256_at_copy": "04f854d7fe2f7816705b988ec59822fc258e4ed3a13529e36d0b9e6233a2682f"
+    },
+    {
+      "path": "user_source/hdl_source/include/.dide/hdl/systemverilog.bin",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\user_source\\hdl_source\\include\\.dide\\hdl\\systemverilog.bin",
+      "bytes": 78,
+      "sha256_at_copy": "5494877558ba18ae8d924dc2932353d4a695d973714794a1afcff89aba1c2e25"
+    },
+    {
+      "path": "user_source/hdl_source/include/.dide/hdl/vhdl.bin",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\user_source\\hdl_source\\include\\.dide\\hdl\\vhdl.bin",
+      "bytes": 78,
+      "sha256_at_copy": "5494877558ba18ae8d924dc2932353d4a695d973714794a1afcff89aba1c2e25"
+    },
+    {
+      "path": "资料与开发板原理图与说明/EG4S20数据手册.pdf",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\资料与开发板原理图与说明\\EG4S20数据手册.pdf",
+      "bytes": 747469,
+      "sha256_at_copy": "a4434879f6671e9a1bab9b110dd4b1088a593f36ffca3b66eba1b8a168a49a2a"
+    },
+    {
+      "path": "资料与开发板原理图与说明/安路软件使用完整流程.pdf",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\资料与开发板原理图与说明\\安路软件使用完整流程.pdf",
+      "bytes": 3052624,
+      "sha256_at_copy": "1d352d483cc0dd6c4b5d79423d1c7f70305c504bdfeb9a962702ee20d6f2ce22"
+    },
+    {
+      "path": "资料与开发板原理图与说明/10_康芯开发板使用手册及实验平台/HX4S20开发板手册-HDL版2410.pdf",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\资料与开发板原理图与说明\\10_康芯开发板使用手册及实验平台\\HX4S20开发板手册-HDL版2410.pdf",
+      "bytes": 2423520,
+      "sha256_at_copy": "e6d066fdc433259697bcf5dfe9eb791cf8a87d289c75e69fa40172d716afccfe"
+    },
+    {
+      "path": "资料与开发板原理图与说明/10_康芯开发板使用手册及实验平台/安路教学实验平台2509.pdf",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\资料与开发板原理图与说明\\10_康芯开发板使用手册及实验平台\\安路教学实验平台2509.pdf",
+      "bytes": 19504593,
+      "sha256_at_copy": "6bd550fc13c2074530404e4f9883a9f6d76c4eb800c435a3d425485c7ca72225"
+    },
+    {
+      "path": "资料与开发板原理图与说明/开发板原理图/1_POWER.pdf",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\资料与开发板原理图与说明\\开发板原理图\\1_POWER.pdf",
+      "bytes": 151736,
+      "sha256_at_copy": "371053b0a91b743ade9c71790241b00c8de9c8642c26c8d43d561c96cd3dab73"
+    },
+    {
+      "path": "资料与开发板原理图与说明/开发板原理图/2_FPGA.pdf",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\资料与开发板原理图与说明\\开发板原理图\\2_FPGA.pdf",
+      "bytes": 362446,
+      "sha256_at_copy": "c3ed8fcd4680d2c3a49101329a480be94b7980af1d262ba3bbf317df144a4017"
+    },
+    {
+      "path": "资料与开发板原理图与说明/开发板原理图/3_Power_and_Config.pdf",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\资料与开发板原理图与说明\\开发板原理图\\3_Power_and_Config.pdf",
+      "bytes": 335539,
+      "sha256_at_copy": "5af05600ce30bd0a716f145b2abba753aae384f1857b5e99294dfb0afdb3bc57"
+    },
+    {
+      "path": "资料与开发板原理图与说明/开发板原理图/4_GPIO.pdf",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\资料与开发板原理图与说明\\开发板原理图\\4_GPIO.pdf",
+      "bytes": 605581,
+      "sha256_at_copy": "ea0914ba2f5e77f3bde2fed9a5da18ffd6c65ca905d93607ad767a1eb1a644a8"
+    },
+    {
+      "path": "资料与开发板原理图与说明/开发板原理图/5_DIG_VGA.pdf",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\资料与开发板原理图与说明\\开发板原理图\\5_DIG_VGA.pdf",
+      "bytes": 350401,
+      "sha256_at_copy": "1ec349af10ae5952c3f31371c8340d1a8428ceda8a8311742c15672201665ea7"
+    },
+    {
+      "path": "资料与开发板原理图与说明/开发板原理图/6_EX_DEVICE.pdf",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\资料与开发板原理图与说明\\开发板原理图\\6_EX_DEVICE.pdf",
+      "bytes": 211045,
+      "sha256_at_copy": "1d4848bf65715f1b71bec93e211fe189ea1ddb1073da8109fa85480d65eb0f97"
+    },
+    {
+      "path": "资料与开发板原理图与说明/开发板原理图/7_HDMI.pdf",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\资料与开发板原理图与说明\\开发板原理图\\7_HDMI.pdf",
+      "bytes": 369890,
+      "sha256_at_copy": "02dcd9367fd28d0d251d0333d44466ac54a3baae1edd63ad2c4e6737241feef6"
+    },
+    {
+      "path": "资料与开发板原理图与说明/开发板原理图/8_Ethernet.pdf",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\资料与开发板原理图与说明\\开发板原理图\\8_Ethernet.pdf",
+      "bytes": 340085,
+      "sha256_at_copy": "fbfccce640c4fc91f740ac6140cc7a5d59578b404cb90f93bcac966dd33c2019"
+    },
+    {
+      "path": "spec/验证会话记录.md",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\spec\\验证会话记录.md",
+      "bytes": 442,
+      "sha256_at_copy": "1a7831b5cb6196939f4d91b92e4212d323727ea6d2c6770279b53926022690b2"
+    },
+    {
+      "path": "spec/conventions/HX4S20_时钟与接口验证.md",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\spec\\conventions\\HX4S20_时钟与接口验证.md",
+      "bytes": 1984,
+      "sha256_at_copy": "17d01dd62c7524ec2ebdcf5b7744808e910ea6f1756eb2887011c8bfcfd84199"
+    },
+    {
+      "path": "audio_arc_calculate.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\audio_arc_calculate.v",
+      "bytes": 1702,
+      "sha256_at_copy": "552d8d86afd237666b30ae08f31247808e89eb024efde5efc670b82eb617a7dc"
+    },
+    {
+      "path": "hdmi_audio_tone_i2s_64fs.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\hdmi_audio_tone_i2s_64fs.v",
+      "bytes": 3621,
+      "sha256_at_copy": "cda838e4e368045d5c6297024081412c068fda8771a9e66d26e044660a7541ad"
+    },
+    {
+      "path": "hdmi_phy_warpper.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\hdmi_phy_warpper.v",
+      "bytes": 4056,
+      "sha256_at_copy": "5d212b43dfa44275540fdb1c550ff42dde04e7b8cc1d7beed459be3318f38647"
+    },
+    {
+      "path": "HX4S20_HDMI_Config.al",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\HX4S20_HDMI_Config.al",
+      "bytes": 15985,
+      "sha256_at_copy": "0cfa05b19a940caa1432922a9bc7afe0b0fd1c15fe1e31882fcf1cbc4995c0e4"
+    },
+    {
+      "path": "HX4S20_TD引脚配置说明.md",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\HX4S20_TD引脚配置说明.md",
+      "bytes": 7875,
+      "sha256_at_copy": "6fe5c069d1bcf80ba94ef000402497f204a6e2139e75914602a046fd9852693a"
+    },
+    {
+      "path": "I2S_receiver.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\I2S_receiver.v",
+      "bytes": 5009,
+      "sha256_at_copy": "384ee3e4d8ac02dcba5dc80d070913d6d7a255843828c78fae9e5309d3c8007a"
+    },
+    {
+      "path": "lane_lvds_10_1.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\lane_lvds_10_1.v",
+      "bytes": 4421,
+      "sha256_at_copy": "de9529321354f04837e051d0ec1681cf44783d4be3284703a788e081147500bc"
+    },
+    {
+      "path": "startup_pulse.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\startup_pulse.v",
+      "bytes": 713,
+      "sha256_at_copy": "396e1e56febb8028339e646bc2f06b83e07ab11ef840e447422fb941956741c9"
+    },
+    {
+      "path": "top_tf_hdmi_audio.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\top_tf_hdmi_audio.v",
+      "bytes": 13019,
+      "sha256_at_copy": "421b965c05f0c9b58f663bd04c0cdd261432cbeeddbde00b80e132a7bc88f971"
+    },
+    {
+      "path": "video_rgb_to_axis_640x480.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\video_rgb_to_axis_640x480.v",
+      "bytes": 1828,
+      "sha256_at_copy": "ba379b066ab20bbbe9f333deb94083d47655d4b1a3fc8a41e55fc0c1dd79f881"
+    },
+    {
+      "path": "video_source_test.v",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\video_source_test.v",
+      "bytes": 2983,
+      "sha256_at_copy": "39cc05c9684a594d4254d11e66e97344053ab75bdb00f3f5a301643fd7aadbfc"
+    },
+    {
+      "path": "_IP核需在TD中生成.txt",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\_IP核需在TD中生成.txt",
+      "bytes": 2462,
+      "sha256_at_copy": "4ea30bb1d05bc61c30e8971ba717d530413b999b2a8817096db136561eb1c7fb"
+    },
+    {
+      "path": "上板前核查结果.md",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\ATask999_CPDLICHENG\\上板前核查结果.md",
+      "bytes": 4348,
+      "sha256_at_copy": "83e2c00b7399ab051a5bf23b317468ee43646bf9661ce388f78674f2a398d0cf"
+    },
+    {
+      "path": "assets/tf/001.bmp",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\第1课_官方例程\\TF卡图片素材\\001.bmp",
+      "bytes": 921654,
+      "sha256_at_copy": "ea687c2b81cd764a70c9dc2532f2cf66c8395080a801ee3b6afc1d426d567faa"
+    },
+    {
+      "path": "assets/tf/002.bmp",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\第1课_官方例程\\TF卡图片素材\\002.bmp",
+      "bytes": 921654,
+      "sha256_at_copy": "f3d34f970c2dd86bf789e7eb893783a4e0e70058fd1bfc58d2e4a8c16215f2f0"
+    },
+    {
+      "path": "assets/tf/003.bmp",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\第1课_官方例程\\TF卡图片素材\\003.bmp",
+      "bytes": 921654,
+      "sha256_at_copy": "82b8dbdb998fa681ec0d17f9cba5f5896ac9dfcd8909ba1cb4f1ee703827962f"
+    },
+    {
+      "path": "assets/tf/004.bmp",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\第1课_官方例程\\TF卡图片素材\\004.bmp",
+      "bytes": 921654,
+      "sha256_at_copy": "cd8514d02703ff607d7c86e450840d691b3e23b3b99c20c61945ec248a465ad2"
+    },
+    {
+      "path": "assets/tf/原素材使用说明.md",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\第1课_官方例程\\TF卡图片素材\\使用说明.md",
+      "bytes": 2586,
+      "sha256_at_copy": "338842127b7ef2878081750faab7cc7c489b8a5c9740cb3342f9cbb4b8f573ba"
+    }
+  ],
+  "excluded": [
+    "Licheng_Pro.al",
+    ".lock.f",
+    "*_Runs/",
+    "log/",
+    "*.vvp",
+    "__pycache__/"
+  ],
+  "expected_changes": [
+    "HX4S20_HDMI_Config.al",
+    "board/run_regression.py",
+    "board/pin_verification.json",
+    "board/regression_results.json",
+    "上板前核查结果.md"
+  ],
+  "note": "原始构建日志与报告作为历史证据保留；未重跑TD，不代表时序通过。",
+  "supplemental_files": [
+    {
+      "path": "assets/tf/history/verification.json",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\第1课_官方例程\\TF卡图片素材\\verification.json",
+      "sha256": "2e46976e91e4ce89877437da6644802306fe32299f49cbf73e45efa0efd9426c"
+    },
+    {
+      "path": "assets/tf/history/prepare_images.py",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\第1课_官方例程\\TF卡图片素材\\prepare_images.py",
+      "sha256": "fc42d6c7e11ced3bc108f3b6513e6af97021ba31acfe27d88f47ae7ca61c8804"
+    }
+  ],
+  "initial_destination": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\AEnd_the_game",
+  "repository_root": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\AEnd_the_game",
+  "path_base_note": "files[].path 相对当前工程根 HX4S20_HDMI；initial_destination 保留首次平铺位置。"
+}

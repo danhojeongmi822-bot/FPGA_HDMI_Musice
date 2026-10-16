@@ -1,0 +1,47 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/bin/td_commands_prompt.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     cheng
+   Run Date =   Fri Oct 16 11:53:22 2026
+
+   Run on =     LAPTOP-SS7F9SMC
+============================================================
+COMMAND export_verilog
+invalid command name "export_verilog"
+COMMAND write_verilog
+
+COMMAND export_db
+
+COMMAND import_db
+
+COMMAND report_cells
+report_cells                            get_cells <cell name> -connection -mode <string> -timing ...
+[get_cells <cell name>]                 Print cell attributes
+[-attributes]                           Print detailed cell attributes
+[-connection]                           Print each pin of the cell, and the net connected
+[-pin_loc]                              Print location of each pin of the cell, based on [-connection]
+[-mode <mode>]                          Used with [-timing]/[-dsp]/[-bram]/[-mux]/[-shifter]/[-dramhardcon], set mode
+[-timing]                               Print the slack of each pin based on [-connection], mode can be <basic/manhattan/final>
+[-grid <coord>]                         Print all cells in the grid specified with col and row, e.g x21y54
+[-entity <id>]                          Print all packed cells in the specified id entity
+[-dsp -mux -bram -shifter -dramhardcon] Print all dsp/mux/bram/shifter/dramhardrcon information, include name, location and slack
+[-file <file name>]                     Used with [-dsp]/[-bram]/[-mux]/[-shifter]/[-dramhardcon], export information to file
+[-export_adc -export_init_adc]          Used with [-dsp]/[-bram]/[-dramhardcon], export adc information to generated adc file
+[-empty_location]                       Used with [-dsp]/[-bram], print empty bram/dsp location information
+
+
+COMMAND report_nets
+report_nets                             [get_nets <net name>] [-of_pins [get_pins <pin list>]] [-connection] [-pin_display_limit <number>] [-hierarchy] [-mode <mode>] [-timing] ...
+[get_nets <net name>]                   Print net attributes and route type
+[-of_pins [get_pins <pin list>]]        Find net with a pin on the net and report
+[-connection]                           Print the basic information of each pin connected
+[-pin_display_limit]                    Used to limit the number of pins printed of [-connection]
+[-hierarchy]                            Used with [-connection], report the net as unflatten net
+[-mode <mode>]                          Used with [-timing], set mode
+[-timing]                               Print the slack of each pin based on [-connection], mode can be <basic/manhattan/final>
+
+
+COMMAND optimize_gate
+

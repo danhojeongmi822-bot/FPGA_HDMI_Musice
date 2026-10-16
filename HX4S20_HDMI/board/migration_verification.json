@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-15",
+  "passed": true,
+  "copied_files": 84,
+  "unchanged_files": 79,
+  "expected_changed_files": [
+    "board/pin_verification.json",
+    "board/regression_results.json",
+    "board/run_regression.py",
+    "HX4S20_HDMI_Config.al",
+    "上板前核查结果.md"
+  ],
+  "project_references_checked": 39,
+  "reference_paths": [
+    "audio_arc_calculate.v",
+    "hdmi_audio_tone_i2s_64fs.v",
+    "hdmi_phy_warpper.v",
+    "I2S_receiver.v",
+    "lane_lvds_10_1.v",
+    "startup_pulse.v",
+    "top_tf_hdmi_audio.v",
+    "video_rgb_to_axis_640x480.v",
+    "video_source_test.v",
+    "SD/ax_debounce.v",
+    "SD/bmp_read.v",
+    "SD/color_bar.v",
+    "SD/frame_fifo_read.v",
+    "SD/frame_fifo_write.v",
+    "SD/frame_read_write.v",
+    "SD/sd_card_bmp.v",
+    "SD/sd_card_cmd.v",
+    "SD/sd_card_sec_read_write.v",
+    "SD/sd_card_top.v",
+    "SD/sdram.v",
+    "SD/seg_decoder.v",
+    "SD/seg_scan.v",
+    "SD/spi_master.v",
+    "SD/video_define.v",
+    "SD/video_delay.v",
+    "SD/video_timing_data.v",
+    "IP/afifo_16_32_256.v",
+    "IP/afifo_32_16_256.v",
+    "IP/PLL_HDMI_AUDIO.v",
+    "IP/sys_pll.v",
+    "IP/video_pll.v",
+    "include/global_def.v",
+    "include/sdr_as_ram.enc.v",
+    "include/sdr_init_ref.enc.v",
+    "include/sdr_wrrd.enc.v",
+    "hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v",
+    "board/hx4s20_board_top.v",
+    "constraints/hx4s20_hdmi_a.adc",
+    "constraints/hx4s20_clocks.sdc"
+  ],
+  "rtl_constraints_bitstream_unchanged": true,
+  "bmp_files": [
+    {
+      "file": "assets/tf/001.bmp",
+      "width": 640,
+      "height": 480,
+      "bit_count": 24,
+      "compression": 0,
+      "bytes": 921654,
+      "sha256": "ea687c2b81cd764a70c9dc2532f2cf66c8395080a801ee3b6afc1d426d567faa"
+    },
+    {
+      "file": "assets/tf/002.bmp",
+      "width": 640,
+      "height": 480,
+      "bit_count": 24,
+      "compression": 0,
+      "bytes": 921654,
+      "sha256": "f3d34f970c2dd86bf789e7eb893783a4e0e70058fd1bfc58d2e4a8c16215f2f0"
+    },
+    {
+      "file": "assets/tf/003.bmp",
+      "width": 640,
+      "height": 480,
+      "bit_count": 24,
+      "compression": 0,
+      "bytes": 921654,
+      "sha256": "82b8dbdb998fa681ec0d17f9cba5f5896ac9dfcd8909ba1cb4f1ee703827962f"
+    },
+    {
+      "file": "assets/tf/004.bmp",
+      "width": 640,
+      "height": 480,
+      "bit_count": 24,
+      "compression": 0,
+      "bytes": 921654,
+      "sha256": "cd8514d02703ff607d7c86e450840d691b3e23b3b99c20c61945ec248a465ad2"
+    }
+  ],
+  "supplemental_files": [
+    {
+      "path": "assets/tf/history/verification.json",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\第1课_官方例程\\TF卡图片素材\\verification.json",
+      "sha256": "2e46976e91e4ce89877437da6644802306fe32299f49cbf73e45efa0efd9426c"
+    },
+    {
+      "path": "assets/tf/history/prepare_images.py",
+      "source": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\第1课_官方例程\\TF卡图片素材\\prepare_images.py",
+      "sha256": "fc42d6c7e11ced3bc108f3b6513e6af97021ba31acfe27d88f47ae7ca61c8804"
+    }
+  ],
+  "regressions_passed": 7,
+  "td_rebuilt_this_session": false,
+  "source_retained": true,
+  "current_project_root": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\AEnd_the_game\\HX4S20_HDMI",
+  "directory_layout_evidence": "board/directory_layout_verification.json"
+}

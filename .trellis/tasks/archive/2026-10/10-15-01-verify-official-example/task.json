@@ -1,0 +1,36 @@
+{
+  "id": "01-verify-official-example",
+  "name": "01-verify-official-example",
+  "title": "任务01：验证官方例程",
+  "description": "验证官方例程的板卡适配和基本功能，记录用户实板初测与遗留问题，迁移工程并以当前代码作为后续优化基线。",
+  "status": "completed",
+  "dev_type": "docs",
+  "scope": null,
+  "package": null,
+  "priority": "P2",
+  "creator": "cheng",
+  "assignee": "cheng",
+  "createdAt": "2026-10-15",
+  "completedAt": "2026-10-15",
+  "branch": null,
+  "base_branch": "master",
+  "worktree_path": null,
+  "commit": null,
+  "pr_url": null,
+  "subtasks": [],
+  "children": [],
+  "parent": null,
+  "relatedFiles": [
+    "docs/对话历史整理.md",
+    "docs/上板现象对照.md",
+    "docs/工程迁移说明.md",
+    "HX4S20_HDMI/board/migration_manifest.json"
+  ],
+  "notes": "用户确认任务01为验证官方例程；初步功能验证阶段完成不等于时序或长稳签核。历史导入没有PR，归档不自动提交。",
+  "meta": {
+    "task_number": "01",
+    "baseline": "当前已适配官方例程",
+    "follow_up": "基于当前代码优化，另建任务",
+    "project_directory": "HX4S20_HDMI"
+  }
+}

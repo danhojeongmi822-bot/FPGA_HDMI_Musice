@@ -1,0 +1,70 @@
+[
+  {
+    "test": "tb_video_axis",
+    "arguments": [],
+    "returncode": 0,
+    "stdout": "PASS video: 3840 pixels, 6 TLAST, 2 SOF\nboard/tests/tb_video_axis.v:28: $finish called at 155400000 (1ps)\n",
+    "stderr": ""
+  },
+  {
+    "test": "tb_audio",
+    "arguments": [],
+    "returncode": 0,
+    "stdout": "PASS audio: 42 samples, 41 nonzero, reset checked\nboard/tests/tb_audio.v:30: $finish called at 880600000 (1ps)\n",
+    "stderr": ""
+  },
+  {
+    "test": "tb_reset",
+    "arguments": [],
+    "returncode": 0,
+    "stdout": "PASS reset: async assertion, 16-edge release, lock loss\nboard/tests/tb_reset.v:18: $finish called at 169000 (1ps)\n",
+    "stderr": ""
+  },
+  {
+    "test": "tb_frame_ack",
+    "arguments": [],
+    "returncode": 0,
+    "stdout": "PASS frame ack: 3 read/write handshakes, 24/10/40 ns clocks, two stages, hold, rearm, reset\nboard/tests/tb_frame_ack.v:60: $finish called at 1898000 (1ps)\n",
+    "stderr": ""
+  },
+  {
+    "test": "tb_bmp",
+    "arguments": [
+      "+BMP=C:/Users/cheng/AppData/Local/Temp/hx4s20_1ev2ae_x/image.bmp"
+    ],
+    "returncode": 0,
+    "stdout": "PASS BMP: 307200 pixels, every RGB value matches actual file\nboard/tests/tb_bmp.v:39: $finish called at 18596645000 (1ps)\n",
+    "stderr": "",
+    "source_image": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\AEnd_the_game\\HX4S20_HDMI\\assets\\tf\\001.bmp"
+  },
+  {
+    "test": "tb_bmp",
+    "arguments": [
+      "+BMP=C:/Users/cheng/AppData/Local/Temp/hx4s20_1ev2ae_x/image.bmp"
+    ],
+    "returncode": 0,
+    "stdout": "PASS BMP: 307200 pixels, every RGB value matches actual file\nboard/tests/tb_bmp.v:39: $finish called at 18596645000 (1ps)\n",
+    "stderr": "",
+    "source_image": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\AEnd_the_game\\HX4S20_HDMI\\assets\\tf\\002.bmp"
+  },
+  {
+    "test": "tb_bmp",
+    "arguments": [
+      "+BMP=C:/Users/cheng/AppData/Local/Temp/hx4s20_1ev2ae_x/image.bmp"
+    ],
+    "returncode": 0,
+    "stdout": "PASS BMP: 307200 pixels, every RGB value matches actual file\nboard/tests/tb_bmp.v:39: $finish called at 18596645000 (1ps)\n",
+    "stderr": "",
+    "source_image": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\AEnd_the_game\\HX4S20_HDMI\\assets\\tf\\003.bmp"
+  },
+  {
+    "test": "tb_bmp",
+    "arguments": [
+      "+BMP=C:/Users/cheng/AppData/Local/Temp/hx4s20_1ev2ae_x/image.bmp"
+    ],
+    "returncode": 0,
+    "stdout": "PASS BMP: 307200 pixels, every RGB value matches actual file\nboard/tests/tb_bmp.v:39: $finish called at 18596645000 (1ps)\n",
+    "stderr": "",
+    "source_image": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\AEnd_the_game\\HX4S20_HDMI\\assets\\tf\\004.bmp"
+  }
+]

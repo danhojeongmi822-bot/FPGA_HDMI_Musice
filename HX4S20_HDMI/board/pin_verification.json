@@ -1,0 +1,176 @@
+{
+  "device": "EG4S20BG256",
+  "top_level_signals_checked": [
+    {
+      "signal": "clk",
+      "location": "R7",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "rst_n",
+      "location": "A2",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "key1",
+      "location": "B2",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "key2",
+      "location": "B1",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "HDMI_CLK_P",
+      "location": "K1",
+      "standard": "LVDS33"
+    },
+    {
+      "signal": "HDMI_D0_P",
+      "location": "F5",
+      "standard": "LVDS33"
+    },
+    {
+      "signal": "HDMI_D1_P",
+      "location": "E3",
+      "standard": "LVDS33"
+    },
+    {
+      "signal": "HDMI_D2_P",
+      "location": "B3",
+      "standard": "LVDS33"
+    },
+    {
+      "signal": "HDMI_DDC_SCL",
+      "location": "P1",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "HDMI_DDC_SDA",
+      "location": "R1",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "sd_ncs",
+      "location": "A12",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "sd_dclk",
+      "location": "A14",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "sd_mosi",
+      "location": "A13",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "sd_miso",
+      "location": "B14",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "seg_sel[0]",
+      "location": "F16",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "seg_sel[1]",
+      "location": "E16",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "seg_sel[2]",
+      "location": "E12",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "seg_sel[3]",
+      "location": "E10",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "seg_sel[4]",
+      "location": "C13",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "seg_sel[5]",
+      "location": "F10",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "seg_sel[6]",
+      "location": "E11",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "seg_sel[7]",
+      "location": "D11",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "seg_data[0]",
+      "location": "C15",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "seg_data[1]",
+      "location": "C16",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "seg_data[2]",
+      "location": "B6",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "seg_data[3]",
+      "location": "A5",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "seg_data[4]",
+      "location": "B5",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "seg_data[5]",
+      "location": "A8",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "seg_data[6]",
+      "location": "A7",
+      "standard": "LVCMOS33"
+    },
+    {
+      "signal": "seg_data[7]",
+      "location": "A6",
+      "standard": "LVCMOS33"
+    }
+  ],
+  "automatic_negative_pins": {
+    "HDMI_CLK_P(n)": "J1",
+    "HDMI_D0_P(n)": "F4",
+    "HDMI_D1_P(n)": "E4",
+    "HDMI_D2_P(n)": "D3"
+  },
+  "physical_user_pads": 34,
+  "bitstream": "C:\\Users\\cheng\\Desktop\\FPGAVrlog\\AEnd_the_game\\HX4S20_HDMI\\build_hx4s20\\HX4S20_HDMI_Config.bit",
+  "bitstream_bytes": 629637,
+  "sha256": "d4cceb63350dc5be526d4af7bd311d6fff7d15d06a003fb5ac1c1cf3abe5f531",
+  "timing_status": "SWNS: 0.133ns, STNS: 0.000ns.\nHWNS: 0.003ns, HTNS: 0.000ns.",
+  "timing_signoff_passed": false,
+  "board_test_performed": false,
+  "timing_metrics_ns": {
+    "SWNS": 0.133,
+    "STNS": 0.0,
+    "HWNS": 0.003,
+    "HTNS": 0.0
+  },
+  "reported_timing_checks_passed": true,
+  "signoff_limitations": "Basic clock constraints only; complete IO/CDC review and new bitstream board acceptance pending."
+}

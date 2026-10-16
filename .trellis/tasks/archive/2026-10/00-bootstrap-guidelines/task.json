@@ -1,0 +1,29 @@
+{
+  "id": "00-bootstrap-guidelines",
+  "name": "00-bootstrap-guidelines",
+  "title": "任务00：FPGA工程规范初始化",
+  "description": "以真实Verilog/TD工程替代Web模板，建立板卡、时钟、验证与历史记录规范。",
+  "status": "completed",
+  "dev_type": "docs",
+  "scope": null,
+  "package": null,
+  "priority": "P1",
+  "creator": "cheng",
+  "assignee": "cheng",
+  "createdAt": "2026-10-15",
+  "completedAt": "2026-10-15",
+  "branch": null,
+  "base_branch": null,
+  "worktree_path": null,
+  "commit": null,
+  "pr_url": null,
+  "subtasks": [],
+  "children": [],
+  "parent": null,
+  "relatedFiles": [
+    ".trellis/spec/fpga/",
+    ".trellis/spec/index.md"
+  ],
+  "notes": "FPGA规范初始化完成；原Web模板移存template-reference；按用户要求先落盘归档，Git待审核。",
+  "meta": {}
+}
